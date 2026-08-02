@@ -143,7 +143,7 @@ def render_sources(sources):
     with st.expander("📎 Sources"):
         for s in sources:
             st.markdown(
-                f"**[{s['ref']}] {s['document_name']}** — {s['section_title']} · "
+                f"**[{s['ref']}] {s['department']} / {s['document_name']}** — {s['section_title']} · "
                 f"{s['department']} · pages {s['start_page']}-{s['end_page']} "
                 f"(relevance {s['score']})"
             )
